@@ -1,0 +1,64 @@
+---
+layout: destination
+title:  "Québec"
+subtitle: "Road trip de A à Z"
+lang: fr
+date:   2015-03-02 13:46:40
+categories: destinations
+featuredImage: downloads/DSCF1074.jpg
+coverImage: downloads/DSCF1074.jpg
+---
+
+
+Que faire pendant 15 jours avec une voiture au Québec en été ?
+Entre ville et grands espaces, nous allons vous dévoiler dans le détail notre voyage au pays des caribous.
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1XpYkQv032Eqi1IeiOqxu3-alM-0" width="100%" height="480"></iframe>
+
+# 1 Préparer sa visite
+
+
+## 1.1 Obligation de remplir un formulaire AVE
+
+## 1.2 Les billets d’avion et le déroulement du vol
+
+Le prix des billets varie beaucoup suivant le mois. Le moins chère est statistiquement le mois de mars avec un billet à 467 € en moyenne tandis qu’en juillet ça passe à 838 € !
+Nous sommes partis au mois d'août ou le prix moyens est de 746 €. Toutefois, en s’y prenant 4 mois à l’avance, nous les avons eu à 462 € sur Air Canada. C’est d’ailleurs souvent la compagnie la moins chère pour les vols Paris / Montréal.
+Je ne sais pas à quoi ressemble la première classe sur ces vols mais je peux vous dire que la classe économique est tout à fait satisfaisante. Le vol a duré 7h15. On nous a fournis un plaid et un oreiller ainsi qu’une paire d’écouteurs afin de pouvoir profiter de l’écran tactile de notre siège. On y trouve une sélection de jeux, films, musiques et livres audios. De quoi faire passer le temps plus rapidement.
+
+Attention au décalage horaire : En décollant à 13:05 de Paris, nous avons atterri à 14:20. La journée se trouve donc rallongée de 6h. Notre stratégie pour éviter le jet-lag a consisté à dormir 4 heures la nuit précédente puis 4 heures une fois dans l’avion.
+Durant le vol et à l’arrivée, évitez les excitants comme le café, l’alcool ou le thé qui ne feront que dérégler d’avantage votre horloge interne. Une fois atterri, une balade à pied aide à se remettre plus rapidement. Enfin, lorsque l’on voyage vers l’Est, il est recommandé de se coucher tôt à l’arrivée. En suivant ces recommandations nous n’avons pas subis plus qu’un coup de fatigue le jour de notre arrivé.
+
+## 1.3 Louer sa voiture
+Notre voyage nous aura fait parcourir environs 2 000 kilomètres soit l’équivalent d’un aller-retour Calais / Montpellier. Dans ces conditions, il était très important de choisir une voiture routière confortable et agréable à conduire. J’ai donc opté pour une Chevrolet Impala et je ne l’ai pas regretté quand j’ai du y passer la nuit (je reviendrais sur cette anecdote plus tard).
+N’hésitez pas à réserver longtemps à l’avance. Plus vous attendrez, plus les prix vont augmenter et le choix des véhicules se restreindre. En ce qui me concerne, j’ai réservé la voiture en même temps que l’avion, 4 mois avant le départ. Nous avons payé 450 € pour 14 jours. Une semaine avant le décollage, les prix avaient grimpés au dessus de 750 € !
+Attention, au Canada les voitures sont pratiquement toujours équipées de boîte de vitesse automatiques. Je n’en avais jamais vu en vrais auparavant et heureusement que l’on nous a expliqué les différentes position P, R, N, D et S sinon nous serions toujours coincés sur le parking.
+
+## 1.4 L’adaptateur secteur
+Vous allez avoir besoin de recharger vos appareils éléctroniques à un moment ou à un autre. Le plus simple est d’acheter un seul adaptateur à fiche plates et d'emmener une multiprise classique. Sachez que vous aurez besoin d’un convertisseur si vous avez des appareils avec un moteur comme un sèche cheveux par exemple.
+
+## 1.5 Les pourboires
+## 1.6 L'hébergement
+
+## 1.8 Dire bonjour
+Saluer un Quebequoi n’est pas une mince affaire. La langue officielle au Québec est le français mais on y trouve tout de même beaucoup d’anglophones. Ne sachant jamais dans quelle langue s’adresser à un inconnu, voici 3 types de salutations que vous rencontrerez :
+“Allo Hi !” : Le cas le plus répandu dans les lieux touristiques. Votre interlocuteur privilégie le français mais peut aussi bien vous parler en anglais.
+“Hi Allo !” : Votre interlocuteur préfère parler anglais mais le français reste possible.
+“Allo !” : Commun en dehors des zones touristiques. Votre interlocuteur ne sait pas ou ne veux pas parler anglais.
+“Hi !” : Très rare, votre interlocuteur ne sait pas ou ne veux pas parler français.
+
+Libre à vous de répondre “Allo” ou “Hi” suivant la langue que vous souhaitez utiliser lors de la conversation.
+
+# 2 Nos activitées
+## 2.1 Parc Oméga
+On commence ce voyage par un plongeon la tête la première en pleine nature, à la découverte de la faune Québécoise. Direction le Parc Oméga,
+2.2 Mont Tremblant en tyrolienne
+2.3 Excursion à cheval au coucher du soleil
+2.5 Rafting sur la rivière Rouge
+2.5 Visite du zoo de Saint-Félicien
+2.6 Croisières aux baleines sur le Saint-Laurent
+2.7 Excursion au canyon Sainte-Anne
+2.8 Visite de Québec
+2.9 Parc de la Chute Montmorency
+2.10 Visite de Montréal
+En conclusion

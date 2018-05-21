@@ -2,22 +2,51 @@
 layout: default
 ---
 
-<div class="home">
+<div class="row">
+  <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+    <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+      <section class="row post-list">
+        <h1 class="section-title"><span>|</span> Top Posts <span>|</span></h1>
+        {% for post in site.categories['blog'] %}
+          <div class="post col-xs-12 col-sm-6 col-md-4">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+              <div
+                style="background-image:url({{ post.featuredImage }})"
+                class="responsive-square post-featured-image">
+              </div>
+            </a>
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            <p>
+              {{ post.customExcerpt }}
+            </p>
+          </div>
+        {% endfor %}
+      </section>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <section class="row last-destination">
+        <h1 class="section-title">
+          <span>|</span> Dernière destination <span>|</span>
+        </h1>
+        <article class="destination">
+          <a
+            href="{{ site.categories['destinations'].first.url | prepend: site.baseurl }}"
+            class="destination-container"
+            style="background-image:url({{site.url}}/{{ site.categories['destinations'].first.featuredImage }})"
+          >
+            <div class="black-overlay"></div>
+            <div class="destination-description">
+              <p>{{ site.categories['destinations'].first.date | date: "%B %Y" }}</p>
+              <h2>{{ site.categories['destinations'].first.title }}</h2>
+              <h3>{{ site.categories['destinations'].first.subtitle }}</h3>
+            </div>
+          </a>
+        </article>
+      </section>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  </div>
 </div>

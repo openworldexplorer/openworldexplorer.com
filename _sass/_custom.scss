@@ -1,0 +1,278 @@
+.responsive-square {
+  width: 100%;
+
+  &:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-family: 'Amatic SC', cursive;
+
+  span {
+    font-weight: 200;
+  }
+}
+
+.cover-image {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.separator {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  margin-bottom: 35px;
+  margin-top: 35px;
+
+  .sep_holder {
+    width: 100%;
+    height: 1px;
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-width: 10%;
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+
+    .sep_line {
+      border-color: #2A2A2A;
+      height: 1px;
+      border-top: 1px solid #EBEBEB;
+      display: block;
+      position: relative;
+      top: 1px;
+      width: 50%!important;
+      margin: 0 auto!important;
+    }
+  }
+}
+
+// Main navbar
+.navbar {
+  .navbar-brand {
+    @media screen and (max-width: 30em) {
+      padding: 15px 0px 15px 0px;
+    }
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(0,0,0,.7);
+    letter-spacing: .1em;
+  }
+
+  .navbar-toggle {
+    @media screen and (max-width: 30em) {
+      margin: 0;
+      padding: 15px 0px 15px 0px;
+    }
+
+    .icon-bar {
+      background: #000;
+    }
+  }
+}
+
+.nav > li > a {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1.2rem;
+  opacity: 0.6;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: 500;
+}
+
+// Posts
+.post {
+  margin-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+  &:hover {
+    background-color: #f0f0f0;
+  }
+
+  @media screen and (min-width: 30em) {
+    height: 445px;
+  }
+
+  .post-featured-image {
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  h2 a {
+    text-align: center;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.6rem;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 1.4rem;
+    text-align: justify;
+    padding-bottom: 1.5rem;
+  }
+}
+
+.post-header {
+  text-align: center;
+
+  .post-title {
+    text-transform: uppercase;
+    font-size: 3.7rem;
+    letter-spacing: .1em;
+    font-weight: 400;
+  }
+
+  .post-subtitle {
+    font-family: 'Amatic SC', cursive;
+  }
+}
+
+// Destination list
+.destination-list {
+  list-style: none;
+  margin: 0px;
+}
+
+.destination {
+  .destination-container {
+    padding-bottom: 56.25%;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    display: block;
+
+    .black-overlay {
+      transform: translateZ(0);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      content: '';
+      background: rgba(0, 0, 0, 0.1);
+      transition: 0.3s ease-in-out;
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.2);
+      }
+    }
+
+    .destination-description {
+      z-index: 1;
+      position: absolute;
+      text-align: center;
+      text-shadow: 0 0 3px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.2);
+      pointer-events: none;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      p {
+        @media screen and (min-width: 30em) {
+          font-size: 1.2rem;
+        }
+
+        font-size: 1rem;
+        margin-bottom: .5rem;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: .25rem;
+        color: #fff;
+        border-color: hsla(0,0%,100%,.3);
+        width: 11rem;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        font-weight: 400;
+      }
+
+      h2 {
+        @media screen and (min-width: 30em) {
+          font-size: 3.7rem;
+          line-height: 0.70;
+        }
+
+        font-size: 2.3rem;
+        line-height: 0;
+        max-width: 20em;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: .1em;
+        font-weight: 400;
+      }
+
+      h3 {
+        @media screen and (min-width: 30em) {
+        }
+
+        color: #fff;
+        font-size: 2.3rem;
+        text-transform: none;
+        font-family: 'Amatic SC', cursive;
+      }
+    }
+  }
+}
+
+// Footer
+.social-media-list {
+  text-align: center;
+  border-color: rgba(0,0,0,.1);
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+
+  .social-media-item {
+    display: inline-block;
+    margin-right: 1.5rem;
+  }
+}
+.icon {
+  color: #555;
+  font-size: 2.5rem !important;
+
+  &--facebook {
+
+  }
+
+  &--github {
+
+  }
+
+  &--twitter {
+
+  }
+
+  &--instagram {
+
+  }
+}
+
+.rss-subscribe {
+  text-align: center;
+}

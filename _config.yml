@@ -1,11 +1,13 @@
 # Site settings
-title: Complexity made simple
-email: 
+title: Open World Explorer
+email:
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://pierremary.com" # the base hostname & protocol for your site
-twitter_username: _PierreMary
-github_username:  pmary
+url: "https://openworldexplorer.com" # the base hostname & protocol for your site
+twitter_username: openworldexplorer
+instagram_username: openworldexplorer
+facebook_username: openworldexplorer
 
 # Build settings
 markdown: kramdown
+permalink: /:categories/:title

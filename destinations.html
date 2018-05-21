@@ -1,0 +1,25 @@
+---
+layout: page
+title: Destinations
+permalink: /destinations/
+order: 2
+---
+
+<div class="destination-list">
+  {% for post in site.categories['destinations'] %}
+  <article class="destination">
+    <a
+      href="{{ post.url | prepend: site.baseurl }}"
+      class="destination-container"
+      style="background-image:url({{site.url}}/{{ post.featuredImage }})"
+    >
+      <div class="black-overlay"></div>
+      <div class="destination-description">
+        <p>{{ post.date | date: "%B %Y" }}</p>
+        <h2>{{ post.title }}</h2>
+        <h3>{{ post.subtitle }}</h3>
+      </div>
+    </a>
+  </article>
+  {% endfor %}
+</div>
